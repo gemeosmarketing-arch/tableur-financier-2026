@@ -42,7 +42,7 @@ export function OfferSection() {
 
   const superpackFeatures = [
     'Modèles professionnels modifiables',
-    '100% prêts à l'''emploi',
+    "100% prêts à l'emploi",
     'Un gain de temps considérable',
   ];
 
