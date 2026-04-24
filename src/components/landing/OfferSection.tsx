@@ -16,7 +16,7 @@ export function OfferSection() {
   ]; */
 
   const assistenteFeatures = [
-    'Posez vos questions sur l'''argent',
+    "Posez vos questions sur l'argent",
     'Conseils pour économiser',
     'Personnalisé pour vous',
   ];
