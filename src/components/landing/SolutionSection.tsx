@@ -5,7 +5,7 @@ export function SolutionSection() {
   const benefits = [
   { icon: Target, text: 'Découvrez où votre argent file sans que vous le voyiez' },
   { icon: Calendar, text: "Plus d'argent chaque mois sans vous priver de ce que vous aimez" },
-  { icon: TrendingUp, text: 'Sortez du rouge en moins de 30 joursk' },
+  { icon: TrendingUp, text: 'Sortez du rouge en moins de 30 jours' },
   { icon: Eye, text: 'Contrôle total en 5 minutes par jour' },
 ];
 
