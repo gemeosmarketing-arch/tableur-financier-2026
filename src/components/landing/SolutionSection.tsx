@@ -3,10 +3,10 @@ import { FeedbackCarousel } from '../shared/FeedbackCarousel';
 
 export function SolutionSection() {
   const benefits = [
-  { icon: Target, text: 'Descubra pra onde seu dinheiro está vazando' },
-  { icon: Calendar, text: 'Mais dinheiro todo mês sem cortar o que gosta' },
-  { icon: TrendingUp, text: 'Saia do vermelho em menos de 30 dias' },
-  { icon: Eye, text: 'Controle total em 5 minutos por dia' },
+  { icon: Target, text: 'Découvrez où votre argent file sans que vous le voyiez' },
+  { icon: Calendar, text: 'Plus d'''argent chaque mois sans vous priver de ce que vous aimez' },
+  { icon: TrendingUp, text: 'Sortez du rouge en moins de 30 jours' },
+  { icon: Eye, text: 'Contrôle total en 5 minutes par jour' },
 ];
 
   return (
@@ -14,13 +14,13 @@ export function SolutionSection() {
       <div className="max-w-5xl mx-auto px-4">
         <div className="text-center mb-10 md:mb-12">
           <h2 className="text-3xl md:text-4xl lg:text-4xl font-bold text-gray-900 mb-2">
-            Conheça a{' '}
-            <span className="text-primary-600">Planilha</span>
+            Découvrez le{' '}
+            <span className="text-primary-600">Tableur</span>
             <br />
-            <span className="text-primary-600">Financeira 2026</span>
+            <span className="text-primary-600">Financier 2026</span>
           </h2>
           <p className="text-base md:text-xl text-gray-600 max-w-3xl mx-auto">
-            Uma planilha prática, intuitiva e direta <br/>ao ponto, criada para quem quer:
+            Un tableur pratique, intuitif et droit au but, créé pour ceux qui veulent:
           </p>
         </div>
 
