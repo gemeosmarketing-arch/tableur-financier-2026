@@ -2,11 +2,11 @@ import { XCircle } from 'lucide-react';
 
 export function ProblemSection() {
   const problems = [
-    'O salário cai e some rápido',
-    'Você não sabe exatamente onde gastou seu dinheiro',
-    'No fim do mês, sobra pouco ou nada',
-    'Vive pagando contas no limite',
-    'Tenta se organizar "de cabeça", mas nunca funciona',
+    'Le salaire arrive et disparaît aussitôt',
+    'Vous ne savez pas exactement où passe votre argent',
+    'À la fin du mois, il ne reste presque rien',
+    'Vous vivez en payant vos factures à la dernière minute',
+    'Vous essayez de tout gérer "de tête", mais ça ne marche jamais',
   ];
 
   return (
@@ -16,11 +16,11 @@ export function ProblemSection() {
         {/* Headline */}
         <div className="text-center mb-10 md:mb-12">
           <span className="inline-block text-red-500 text-sm font-bold tracking-widest uppercase mb-3">
-            Seja honesto consigo mesmo
+            Soyez honnête avec vous-même
           </span>
           <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold text-gray-900 leading-tight">
-            <span className="block">Você se identifica com</span>
-            <span className="block">alguma dessas situações?</span>
+            <span className="block">Vous vous reconnaissez</span>
+            <span className="block">dans l'une de ces situations?</span>
           </h2>
         </div>
 
@@ -47,9 +47,9 @@ export function ProblemSection() {
           <div className="relative">
           
             <p className="text-sm md:text-xl text-white leading-relaxed font-bold">
-              O problema <span className="text-primary-400 underline underline-offset-4 decoration-primary-400/50">não é</span> quanto você ganha.
+              Le problème, <span className="text-primary-400 underline underline-offset-4 decoration-primary-400/50">ce n'est</span> pas combien vous gagnez.
               <br />
-              O problema é <span className="text-primary-400 underline underline-offset-4 decoration-primary-400/50">não ter controle</span>.
+              Le problème, c'est le <span className="text-primary-400 underline underline-offset-4 decoration-primary-400/50">manque de contrôle.</span>.
             </p>
           </div>
         </div>
