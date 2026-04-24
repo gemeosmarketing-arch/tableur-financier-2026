@@ -55,7 +55,7 @@ const easedProgress = Math.pow(realProgress, 0.3);
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight mb-4 md:mb-6 px-2">
             <span className="text-gray-200">CE TABLEUR</span>
             <br />
-            <span className="text-gray-200">VOUS PERMETTRA DE</span>
+            <span className="text-gray-200">VA VOUS DONNER</span>
             <br />
             <span className="text-primary-400 underline underline-offset-4 decoration-primary-400/50 drop-shadow-[0_0_30px_rgba(52,211,153,0.3)]">
               PLUS D'ARGENT 
@@ -95,7 +95,7 @@ const easedProgress = Math.pow(realProgress, 0.3);
                     <Play className="w-8 h-8 md:w-10 md:h-10 text-white ml-1" fill="white" />
                   </div>
                   <span className="text-white text-sm md:text-base font-medium bg-black/60 px-4 py-2 rounded-full backdrop-blur-sm">
-                    Clique para ativar o som
+                    Cliquez pour activer le son
                   </span>
                 </button>
               )}
