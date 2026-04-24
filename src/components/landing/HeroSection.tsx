@@ -116,7 +116,7 @@ const easedProgress = Math.pow(realProgress, 0.3);
           {/* CTA */}
           <div className="pb-2 md:pb-4">
             <CTAButton>
-              QUERO ACESSAR AGORA
+              JE VEUX ACCÉDER MAINTENANT
             </CTAButton>
           </div>
 
