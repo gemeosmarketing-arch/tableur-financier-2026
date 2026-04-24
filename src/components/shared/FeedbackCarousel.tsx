@@ -52,10 +52,10 @@ export function FeedbackCarousel({ variant = 'dark' }: FeedbackCarouselProps) {
     <div className="mt-12 md:mt-16">
       <div className="text-center mb-8 md:mb-8">
   <h3 className="text-3xl md:text-4xl font-bold">
-    <span className={isDark ? 'text-white' : 'text-gray-900'}>Veja quem já </span>
-    <span className="text-primary-400">transformou</span>
+    <span className={isDark ? 'text-white' : 'text-gray-900'}>Découvrez ceux qui ont déjà </span>
+    <span className="text-primary-400">transformé</span>
     <br />
-    <span className={isDark ? 'text-white' : 'text-gray-900'}>suas finanças</span>
+    <span className={isDark ? 'text-white' : 'text-gray-900'}>leurs finances</span>
   </h3>
 </div>
 
