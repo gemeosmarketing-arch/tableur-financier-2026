@@ -3,10 +3,10 @@ import { PricingGrid } from './PricingGrid';
 
 export function OfferSection() {
   const spreadsheetFeatures = [
-    'Funciona no Excel e Google Planilhas',
-    'Pode usar no Celular e Computador',
-    'Pagamento único, SEM mensalidades',
-    'Acesso para a vida toda',
+    'Fonctionne sur Excel et Google Sheets',
+    'Utilisable sur téléphone et ordinateur',
+    'Paiement unique, SANS abonnement',
+    'Accès à vie',
   ];
 
  /* const videoFeatures = [
@@ -16,9 +16,9 @@ export function OfferSection() {
   ]; */
 
   const assistenteFeatures = [
-    'Tire dúvidas sobre dinheiro',
-    'Dicas para juntar dinheiro',
-    'Personalizado para você',
+    'Posez vos questions sur l'''argent',
+    'Conseils pour économiser',
+    'Personnalisé pour vous',
   ];
 
   const bookCategories = [
@@ -41,16 +41,16 @@ export function OfferSection() {
   ]; */}
 
   const superpackFeatures = [
-    'Modelos profissionais editáveis',
-    '100% prontas para usar',
-    'Economia de tempo absurda',
+    'Modèles professionnels modifiables',
+    '100% prêts à l'''emploi',
+    'Un gain de temps considérable',
   ];
 
   const planilhacasalFeatures = [
-    'Finanças do Casal',
-    'Controle as Despesas Juntos',
-    'Metas do Casal',
-    'Planejamento do Futuro',
+    'Finances du couple',
+    'Contrôlez vos dépenses ensemble',
+    'Objectifs communs',
+    'Planification de l'''avenir',
   ];
 
   const suporteFeatures = [
@@ -64,8 +64,8 @@ export function OfferSection() {
       <div className="max-w-5xl mx-auto px-4">
         <div className="text-center mb-10 md:mb-12">
           <h2 className="text-3xl md:text-4xl lg:text-4xl font-bold text-white mb-3 md:mb-4">
-            <span className="text-white">Veja tudo o que você</span>
-            <span className="text-primary-400"> <br/> vai receber:</span>
+            <span className="text-white">Voici tout ce que</span>
+            <span className="text-primary-400"> <br/> vous allez recevoir:</span>
           </h2>
         </div>
 
@@ -75,7 +75,7 @@ export function OfferSection() {
               <div className="w-10 h-10 md:w-12 md:h-12 bg-primary-500 rounded-xl flex items-center justify-center">
                 <Table2 className="w-5 h-5 md:w-6 md:h-6 text-white" />
               </div>
-              <h3 className="text-lg md:text-xl font-bold text-white">Planilha Financeira 2026</h3>
+              <h3 className="text-lg md:text-xl font-bold text-white">Tableur Financier 2026</h3>
             </div>
             <ul className="space-y-2 mb-5">
               {spreadsheetFeatures.map((feature) => (
@@ -100,7 +100,7 @@ export function OfferSection() {
 
           <div className="text-center mb-10 md:mb-12">
             <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold text-white mb-3 md:mb-4">
-              <span className="text-white">Ferramentas exclusivas <br/>no</span>
+              <span className="text-white">Outils exclusifs <br/>du</span>
               <span className="text-primary-400"> Kit Premium:</span>
             </h2>
           </div>
@@ -111,34 +111,34 @@ export function OfferSection() {
             features={videoFeatures}
             imageSrc="/4videoaula.png"
             imageAlt="Aula gravada ensinando como usar a planilha"
-            oldPrice="R$35,00"
+            oldPrice="€35,00"
           /> */}
 
           <BonusCard
             icon={Table2}
-            title="Super Pack 15.000 Planilhas"
+            title="Super Pack 15.000 Tableurs"
             features={superpackFeatures}
             imageSrc="/superpack.png"
             imageAlt="Super Pack 15.000"
-            oldPrice="R$159,90"
+            oldPrice="€159,90"
           />
 
           <BonusCard
             icon={Table2}
-            title="Planilha de Casal"
+            title="Tableur de Couple"
             features={planilhacasalFeatures}
             imageSrc="/planilhacasal.png"
-            imageAlt="Super Pack 15.000"
-            oldPrice="R$159,90"
+            imageAlt="Tableur de Couple"
+            oldPrice="€159,90"
           />
 
           <BonusCard
             icon={Video}
-            title="Assistente Financeiro 24hrs"
+            title="Assistant Financier 24h/24"
             features={assistenteFeatures}
             imageSrc="/3assistente.png"
-            imageAlt="Assistente Financeiro 24hrs"
-            oldPrice="R$49,90"
+            imageAlt="Assistant Financier 24h/24"
+            oldPrice="€49,90"
           />
 
           <BonusCard
@@ -148,7 +148,7 @@ export function OfferSection() {
             featuresLabel="Conteúdos sobre:"
             imageSrc="/127livros.png"
             imageAlt="Coleção de 128 livros em PDF"
-            oldPrice="R$29,00"
+            oldPrice="€29,00"
           />
 
           
@@ -159,7 +159,7 @@ export function OfferSection() {
             features={scoreFeatures}
             imageSrc="/score.png"
             imageAlt="Como Aumentar o Score e Ter Mais Limite de Crédito"
-            oldPrice="R$39,90"
+            oldPrice="€39,90"
           /> */}
 
           {/*    <BonusCard
@@ -168,7 +168,7 @@ export function OfferSection() {
             features={investidorFeatures}
             imageSrc="/zero.png"
             imageAlt="Do Zero ao Investidor – Guia de Investimentos para Iniciante"
-            oldPrice="R$39,90"
+            oldPrice="€39,90"
           /> */}
 
           <BonusCard
@@ -177,9 +177,9 @@ export function OfferSection() {
             features={suporteFeatures}
             imageSrc="/wpp.png"
             imageAlt="Suporte Exclusivo"
-            oldPrice="R$49,90"
+            oldPrice="€49,90"
             imageClassName="w-40 h-40 mx-auto object-contain"
-            highlightText="BÔNUS"
+            highlightText="BONUS"
           />
         </div>
 
@@ -211,7 +211,7 @@ function BonusCard({ icon: Icon, title, features, featuresLabel, imageSrc, image
   return (
     <div className="relative bg-white/5 backdrop-blur-sm rounded-2xl p-5 md:p-6 border border-white/10">
       <div className="absolute -top-3 right-4 bg-primary-500 text-white text-xs font-bold px-3 py-1 rounded-full uppercase tracking-wide">
-        Grátis
+        Gratuit
       </div>
       <div className="flex items-center gap-3 mb-4">
         <div className="w-10 h-10 md:w-12 md:h-12 bg-primary-500 rounded-xl flex items-center justify-center">
@@ -239,7 +239,7 @@ function BonusCard({ icon: Icon, title, features, featuresLabel, imageSrc, image
       )}
       <div className="mt-4 text-center">
         <span className="text-white/40 text-lg line-through">De: {oldPrice}</span>
-        <span className="text-2xl md:text-3xl font-bold text-primary-400 ml-3">{highlightText || "BÔNUS"}</span>
+        <span className="text-2xl md:text-3xl font-bold text-primary-400 ml-3">{highlightText || "BONUS"}</span>
       </div>
     </div>
   );
