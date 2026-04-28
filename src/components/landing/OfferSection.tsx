@@ -50,7 +50,7 @@ export function OfferSection() {
     'Finances du couple',
     'Contrôlez vos dépenses ensemble',
     'Objectifs communs',
-    'Planification de l'''avenir',
+    "Planification de l'avenir",
   ];
 
   const suporteFeatures = [
