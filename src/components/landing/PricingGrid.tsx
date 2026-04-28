@@ -171,7 +171,7 @@ export function PricingGrid() {
       variant="white"
       className="w-full"
     >
-      QUERO O BÁSICO
+      JE VEUX LE KIT BASIQUE
     </CTAButton>
   </div>
 ) : (
@@ -184,7 +184,7 @@ export function PricingGrid() {
       variant="white"
       className="w-full"
     >
-      QUERO O KIT PREMIUM
+      JE VEUX LE KIT PREMIUM
     </CTAButton>
   </div>
 )}
