@@ -20,12 +20,12 @@ export function GuaranteeSection() {
 
           <div className="mt-6 flex justify-center">
             <a href="#pricing">
-    <CTAButton>QUERO ACESSAR AGORA</CTAButton>
+    <CTAButton>JE VEUX ACCÉDER MAINTENANT</CTAButton>
   </a>
           </div>
 
           <p className="mt-3 text-xs text-gray-500">
-            Achat 100% sécurisé • Remboursement sous 7 jours
+            Achat 100% sécurisé • Remboursement sous 14 jours
           </p>
         </div>
       </div>
