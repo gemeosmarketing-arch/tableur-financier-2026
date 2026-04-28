@@ -161,7 +161,7 @@ export function PricingGrid() {
               <div className="inline-block bg-white/20 text-white font-bold text-sm px-4 py-1.5 rounded-full mb-6">
                 Paiement Unique
               </div>
-{plan.name === 'Kit Básico' ? (
+{plan.name === 'Kit Basique' ? (
   <div onClick={(e) => {
     e.preventDefault();
     e.stopPropagation();
