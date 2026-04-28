@@ -173,7 +173,7 @@ export function OfferSection() {
 
           <BonusCard
             icon={Headphones}
-            title="Suporte Exclusivo no WhatsApp"
+            title="Support Exclusif sur WhatsApp"
             features={suporteFeatures}
             imageSrc="/wpp.png"
             imageAlt="Suporte Exclusivo"
@@ -185,7 +185,7 @@ export function OfferSection() {
 
         <div className="text-center mb-8 mt-1">
           <h2 className="text-4xl md:text-6xl lg:text-6xl font-bold text-white inline-flex flex-col items-center gap-3">
-            ESCOLHA O <span className="text-primary-400" >SEU KIT </span> <ChevronDown className="w-8 h-8 text-primary-400 animate-bounce" />
+            CHOISISSEZ <span className="text-primary-400" >VOTRE KIT </span> <ChevronDown className="w-8 h-8 text-primary-400 animate-bounce" />
           </h2>
         </div>
 
