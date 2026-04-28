@@ -22,10 +22,10 @@ export function OfferSection() {
   ];
 
   const bookCategories = [
-    'Finanças pessoais',
-    'Desenvolvimento pessoal',
-    'Mentalidade',
-    'Vendas e Empreendedorismo',
+    'Finances personnelles',
+    'Développement personnel',
+    "État d'esprit",
+    'Vente et Entrepreneuriat',
   ];
 
   {/* const scoreFeatures = [
@@ -54,9 +54,9 @@ export function OfferSection() {
   ];
 
   const suporteFeatures = [
-    'Tire dúvidas sobre a planilha',
-    'Orientação prática',
-    'Atendimento direto e rápido',
+    'Posez vos questions sur le tableur',
+    'Accompagnement pratique',
+    'Réponse rapide et directe',
   ];
 
   return (
