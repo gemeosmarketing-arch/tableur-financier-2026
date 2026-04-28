@@ -11,12 +11,11 @@ export function GuaranteeSection() {
           </div>
 
           <h2 className="text-2xl md:text-3xl font-bold text-gray-900">
-            GARANTIA 7 DIAS
+            GARANTIE 14 JOURS
           </h2>
 
           <p className="mt-3 text-gray-600 md:text-lg leading-relaxed">
-            Comprou, testou e não gostou? É só pedir reembolso dentro de 7 dias.
-            Devolvemos 100% do seu dinheiro.
+            Vous avez acheté, testé et ça ne vous plaît pas ? Il suffit de demander un remboursement sous 14 jours. Nous vous rendons 100% de votre argent.
           </p>
 
           <div className="mt-6 flex justify-center">
@@ -26,7 +25,7 @@ export function GuaranteeSection() {
           </div>
 
           <p className="mt-3 text-xs text-gray-500">
-            Compra 100% segura • Reembolso em até 7 dias
+            Achat 100% sécurisé • Remboursement sous 7 jours
           </p>
         </div>
       </div>
